@@ -5,6 +5,8 @@ const Hero = () => {
   return (
     <section className="py-32 w-full" id="hero">
       <div className="container flex flex-col justify-center gap-8 items-center">
+        <img src={logo} alt="" />
+
         <h1 className="max-w-[817px] break-all font-bold bord text-center  rainbow-text text-5xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
           COOOOOOOOOKIES
         </h1>
@@ -31,8 +33,6 @@ const Hero = () => {
             </div>
           </a>
         </div>
-
-        <img src={logo} alt="" />
       </div>
     </section>
   );
