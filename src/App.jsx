@@ -7,7 +7,7 @@ import Mics from "./Components/Mics";
 
 const App = () => {
   return (
-    <div className="min-h-screen w-full relative font-cookie bg-cyan-950 text-white">
+    <div className="min-h-screen w-full relative font-cookie bg-black text-white">
       <Header />
       <Hero />
       <About />
