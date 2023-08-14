@@ -24,7 +24,7 @@ const Header = () => {
         </div>
         <a
           href=""
-          className="w-[194px] h-[54px] px-8 py-4 bg-orange-600 rounded shadow justify-center items-center gap-2.5 inline-flex"
+          className="w-[194px] h-[54px] px-8 py-4 bg-[#0098EE] rounded shadow justify-center items-center gap-2.5 inline-flex"
         >
           <div className="text-white text-base font-normal leading-snug tracking-tight">
             BUY ON UNISWAP
