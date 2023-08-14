@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <section className="py-32 w-full" id="hero">
       <div className="container flex flex-col justify-center gap-8 items-center">
-        <h1 className="max-w-[817px] font-bold bord text-center text-orange-600 text-5xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
-          Let’s Meet DeFido! Token inspired by a Tweet
+        <h1 className="max-w-[817px] font-bold bord text-center  rainbow-text text-5xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
+          COOOOOOOOOKIES
         </h1>
         <p className="max-w-[585px] text-center text-white text-2xl font-cartoonCookies leading-loose tracking-wide">
           Floki, Meet DeFido! This brand new token was born merely moments after
