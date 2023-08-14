@@ -5,7 +5,7 @@ const Mics = () => {
   return (
     <section className="py-24 w-full" id="mics">
       <div className="container flex gap-24 justify-center items-center flex-col">
-        <h1 className="font-bold bord text-center text-orange-600 text-5xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
+        <h1 className="font-bold rainbow-text bord text-center text-5xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
           Tokenomics
         </h1>
 
