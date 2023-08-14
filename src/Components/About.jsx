@@ -10,17 +10,9 @@ const About = () => {
             About Us
           </h1>
           <p className=" text-white text-xl font-normal leading-10">
-            Pepe and Toad the memecoin Launched on the ethereum. Our mission is
-            to provide a fun, community-driven investment opportunity that
-            celebrates the power of memes and pop culture. With a vision to
-            become the leading memecoin in the market, we believe Pepe and Toad
-            is the perfect addition to any investor’s portfolio. Join us on this
-            journey to revolutionize the world of memecoins. the market, we
-            believe Pepe and Toad is the perfect addition to any investor’s
-            portfolio. Join us on this journey to revolutionize the world of
-            memecoins. opportunity that celebrates the power of memes and pop
-            culture. With a vision to become the leading memecoin in the market,
-            we believe Pepe and Toad is the perfect addition to{" "}
+            From getting yelled at by your mother to get your fat fingers out of
+            the cookie jar to Arnold Schwarzenegger telling you to PUT THAT
+            COOKIE DOWN!
           </p>
         </article>
         <img src={logo} alt="" className="object-cover" />
