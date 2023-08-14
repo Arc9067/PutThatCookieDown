@@ -13,6 +13,12 @@ const About = () => {
             From getting yelled at by your mother to get your fat fingers out of
             the cookie jar to Arnold Schwarzenegger telling you to PUT THAT
             COOKIE DOWN!
+            <br />
+            <br />
+            <br />
+            It doesn’t matter how much weed you consume you just don’t want to
+            stop… that’s called an addiction. The first step to recovery is
+            acceptance, accept that you’re a cookie eating DORK!
           </p>
         </article>
         <img src={logo} alt="" className="object-cover" />
