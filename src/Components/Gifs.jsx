@@ -10,13 +10,8 @@ import vid6 from "../assets/vid6.gif";
 const Gifs = () => {
   return (
     <section className="py-24 w-full" id="gif">
-      <div className="container grid grid-cols-1 lg:grid-cols-3 items-stretch justify-stretch gap-8">
-        <img src={vid1} alt="" className="w-full"/>
-        <img src={vid2} alt="" className="w-full"/>
-        <img src={vid3} alt="" className="w-full"/>
-        <img src={vid4} alt="" className="w-full"/>
-        <img src={vid5} alt="" className="w-full"/>
-        <img src={vid6} alt="" className="w-full"/>
+      <div className="container grid  items-center justify-center gap-8">
+        <img src={vid3} alt="" className="w-full lg:w-[40rem]" />
       </div>
     </section>
   );
