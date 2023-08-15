@@ -2,15 +2,14 @@ import React from "react";
 import logo from "../assets/logo.webp";
 import cookie1 from "../assets/cookie1.png";
 import cookie2 from "../assets/cookie2.png";
+import img3 from "../assets/img3.png";
 
 const Hero = () => {
   return (
     <section className="py-32 w-full" id="hero">
       <div className="container flex flex-col justify-center gap-8 items-center">
         {/* <img src={logo} alt="" /> */}
-        <h1 className="max-w-[817px] break-all font-bold bord text-center  rainbow-text text-5xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
-          Om Nom Nom Nom
-        </h1>
+
         <img src={cookie1} alt="" className="md:w-[40rem]" />
 
         <h1 className="max-w-[817px] break-all font-bold bord text-center  rainbow-text text-5xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
@@ -40,6 +39,7 @@ const Hero = () => {
             </div>
           </a>
         </div>
+        <img src={img3} alt="" className="md:w-[40rem]" />
       </div>
     </section>
   );
