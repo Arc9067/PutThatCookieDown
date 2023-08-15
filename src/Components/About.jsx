@@ -7,7 +7,7 @@ const About = () => {
       <div className="container grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:items-stretch">
         <article className="p-4 pt-8 about bg-[#00232E] rounded-tl-xl text-center flex flex-col items-center justify-center">
           <h1 className="font-bold bord text-center rainbow-text text-5xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
-            About Us
+            Om Nom Nom Nom
           </h1>
           <p className=" text-white text-xl font-normal leading-10">
             From getting yelled at by your mother to get your fat fingers out of

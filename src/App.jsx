@@ -11,8 +11,8 @@ const App = () => {
       <Header />
       <Hero />
       <About />
-      <Gifs />
-      <Mics />
+      {/* <Gifs /> */}
+      {/* <Mics /> */}
     </div>
   );
 };
