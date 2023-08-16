@@ -3,6 +3,7 @@ import logo from "../assets/logo.webp";
 import cookie1 from "../assets/cookie1.png";
 import cookie2 from "../assets/cookie2.png";
 import img3 from "../assets/img3.png";
+import pattern from "../assets/pattern.png";
 
 const Hero = () => {
   return (
@@ -15,7 +16,14 @@ const Hero = () => {
         <h1 className="max-w-[817px] break-all font-bold bord text-center  rainbow-text text-5xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
           COOOOOOOOOKIES
         </h1>
-        <img src={cookie2} alt="" className="md:w-[40rem]" />
+        <div className="relative">
+          <img src={cookie2} alt="" className="md:w-[40rem]" />
+          <img
+            src={pattern}
+            alt=""
+            className="w-[5rem] absolute right-0 top-0 lg:hidden"
+          />
+        </div>
         <p className="max-w-[585px] text-center text-white text-2xl font-cartoonCookies leading-loose tracking-wide">
           We know your mother has told you to keep those hands out of the cookie
           jar now Arnold Schwarzenegger steps in to scream “PUT THOSE COOKIES
