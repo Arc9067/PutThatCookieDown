@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.webp";
-import cookie1 from "../assets/cookie1.png";
+import cookie1 from "../assets/cookie1.webp";
 import cookie2 from "../assets/cookie2.png";
 import img3 from "../assets/img3.png";
 import pattern from "../assets/pattern.png";
@@ -30,9 +30,9 @@ const Hero = () => {
           DOWN”!
         </p>
 
-        <div className="flex flex-wrap justify-center items-center gap-8">
+        <div className="flex flex-wrap justify-center font-cartoonCookies items-center gap-8">
           <a
-            href=""
+            href="https://t.me/PutThatCookieDownETH"
             className="w-[194px] h-[54px] px-8 py-4 bg-[#0098EE] rounded shadow justify-center items-center gap-2.5 inline-flex"
           >
             <div className="text-white text-base font-normal leading-snug tracking-tight">
@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
           </a>
           <a
-            href=""
+            href="https://twitter.com/PTCDeth"
             className="w-[194px] h-[54px] px-8 py-4 bg-[#0098EE] rounded shadow justify-center items-center gap-2.5 inline-flex"
           >
             <div className="text-white text-base font-normal leading-snug tracking-tight">
@@ -48,6 +48,8 @@ const Hero = () => {
             </div>
           </a>
         </div>
+
+        <audio controls autoPlay loop src="/sound.mp3"></audio>
         <img src={img3} alt="" className="md:w-[40rem]" />
       </div>
     </section>
