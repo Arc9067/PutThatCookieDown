@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/bob.gif";
+import cookie2 from "../assets/cook2.png";
 
 const About = () => {
   return (
@@ -22,6 +23,8 @@ const About = () => {
           </p>
         </article>
         <img src={logo} alt="" className="object-cover" />
+        <img src={cookie2} alt="" className="object-cover" />
+        <img src={cookie2} alt="" className="object-cover" />
       </div>
     </section>
   );
