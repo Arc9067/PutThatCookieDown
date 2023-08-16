@@ -13,7 +13,7 @@ const Hero = () => {
 
         <img src={cookie1} alt="" className="md:w-[40rem]" />
 
-        <h1 className="max-w-[817px] break-all font-bold bord text-center  rainbow-text text-5xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
+        <h1 className="max-w-[817px] break-all font-bold bord text-center  rainbow-text text-3xl leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
           COOOOOOOOOKIES
         </h1>
         <div className="relative">
