@@ -17,8 +17,9 @@ const Hero = () => {
         </h1>
         <img src={cookie2} alt="" className="md:w-[40rem]" />
         <p className="max-w-[585px] text-center text-white text-2xl font-cartoonCookies leading-loose tracking-wide">
-          Floki, Meet DeFido! This brand new token was born merely moments after
-          Coinbase tweeted their dog named “DeFido” at Elon Musk.{" "}
+          We know your mother has told you to keep those hands out of the cookie
+          jar now Arnold Schwarzenegger steps in to scream “PUT THOSE COOKIES
+          DOWN”!
         </p>
 
         <div className="flex flex-wrap justify-center items-center gap-8">

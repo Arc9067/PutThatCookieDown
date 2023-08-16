@@ -23,7 +23,10 @@ const About = () => {
           </p>
         </article>
         <img src={logo} alt="" className="object-cover" />
-        <img src={cookie2} alt="" className="object-cover" />
+        <h1 className="font-bold bord text-center rainbow-text text-3xl p-10 self-center font-cartoonCookies tracking-wider">
+          Sometimes me think, what is friend? And then me say: a friend is
+          someone to share last cookie with.{" "}
+        </h1>{" "}
         <img src={cookie2} alt="" className="object-cover" />
       </div>
     </section>
