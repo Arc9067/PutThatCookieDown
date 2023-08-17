@@ -47,7 +47,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <audio controls autoPlay loop src="/sound.mp3"></audio>
+        <audio controls autoPlay loop src="/sound.mp3" id="audio"></audio>
         <img src={img3} alt="" className="md:w-[40rem]" />
 
         <h1 className="max-w-[817px] break-all uppercase font-bold bord text-center  rainbow-text text-5xl mt-10 leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
