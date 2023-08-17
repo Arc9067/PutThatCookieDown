@@ -11,15 +11,17 @@ const About = () => {
             Om Nom Nom Nom
           </h1>
           <p className=" text-white text-xl font-normal leading-10">
-            From getting yelled at by your mother to get your fat fingers out of
-            the cookie jar to Arnold Schwarzenegger telling you to PUT THAT
-            COOKIE DOWN!
+            C is for cookie, that's good enough for me C is for cookie, that's
+            good enough for me Oh, cookie, cookie, cookie starts with C, yeah!
+            Cookie, cookie, cookie starts with C, oh boy! Cookie, cookie, cookie
+            starts with C!"
             <br />
             <br />
             <br />
-            It doesn’t matter how much weed you consume you just don’t want to
-            stop… that’s called an addiction. The first step to recovery is
-            acceptance, accept that you’re a cookie eating DORK!
+            Hey you know what? A round cookie with one bite out of it Looks like
+            a C A round donut with one bite out of it Also looks like a C But it
+            is not as good as a cookie Oh and the moon sometimes looks like a C
+            But you can't eat that, so
           </p>
         </article>
         <img src={logo} alt="" className="object-cover" />

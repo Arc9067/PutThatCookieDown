@@ -25,9 +25,7 @@ const Hero = () => {
           />
         </div>
         <p className="max-w-[585px] text-center text-white text-2xl font-cartoonCookies leading-loose tracking-wide">
-          We know your mother has told you to keep those hands out of the cookie
-          jar now Arnold Schwarzenegger steps in to scream “PUT THOSE COOKIES
-          DOWN”!
+          "Me Love to Eat Cookies. Sometimes eat whole, sometimes me chew it."
         </p>
 
         <div className="flex flex-wrap justify-center font-cartoonCookies items-center gap-8">
@@ -51,6 +49,15 @@ const Hero = () => {
 
         <audio controls autoPlay loop src="/sound.mp3"></audio>
         <img src={img3} alt="" className="md:w-[40rem]" />
+
+        <h1 className="max-w-[817px] break-all uppercase font-bold bord text-center  rainbow-text text-5xl mt-10 leading-[1.4] lg:text-7xl font-cartoonCookies lg:leading-[86.40px] tracking-wider">
+          Tokenomics
+        </h1>
+
+        <ul className="flex flex-col justify-center items-center gap-6">
+          <li className="text-3xl">100,000,000 $COOKIE</li>
+          <li className="text-3xl">3% Buy Tax / 3% Sell Tax</li>
+        </ul>
       </div>
     </section>
   );
